@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="MailingList.css">
+        <title>Cromer Crabs/Mailing List</title>
+        <script>
+            function SubmitForm()
+            {
+                alert("Form submitted, welcome to the Club!")
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div id="top-header">
+                <a href="index.html" id="top-header-logo-link">
+                    <img id="top-header-logo" src="assets/img/real logo design 1 .png">
+                </a>
+                <h1>Mailing list sign up</h1>
+            </div>
+            <nav>
+                <a href="index.html">Return Home</a>
+                <a href="MerchStore.html">Merch Store</a>
+                <a href="TeamProfiles.html">Our Team</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Our Mailing List</h1>
+            <div id="EntryArea">
+            <form>
+                <label for="FirstName">First Name:</label><br>
+                <input type="text" id="FirstName" name="Firstname"><br>
+                <label for="LastName">Last Name:</label><br>
+                <input type="text" id="LastName" name="LastName"><br>
+                <label for="Email">Email:</label><br>
+                <input type="text" id="Email" name="Email"><br>
+                <button onclick="SubmitForm()">Submit</button>
+            </form>   
+        </div>
+            
+        </main>
+        <footer>
+           <p>&copy; 2026 Cromer Crabs</p> 
+        </footer>
+    </body>
+</html>
